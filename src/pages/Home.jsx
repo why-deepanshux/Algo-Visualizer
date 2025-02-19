@@ -17,7 +17,7 @@ const Home = () => {
           </div>
         </div>
         <div className="md:w-[60%] w-full flex justify-center items-center">
-          <img src={home} alt="home page image" className="w-full" />
+          <img src={home} alt="home page image" className="w-full" loading='lazy'/>
         </div>
       </div>
     </div>
